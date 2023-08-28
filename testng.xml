@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning - Tsys">
+
+
+<test name="GoogleAppsPage Test">
+    <classes>
+        <class name="POM_GmailTestCases.TC_01_GoogleAppsPageTest" ></class>  
+    </classes>
+</test>
+
+<test name="ClickOnSignInButton Test">
+    <classes>
+        <class name="POM_GmailTestCases.TC_02_ClickOnSignInButton" ></class>  
+    </classes>
+</test>
+
+<test name="Gmail_LoginTest Test">
+    <classes>
+        <class name="POM_GmailTestCases.TC_03_Gmail_LoginTest" ></class>  
+    </classes>
+</test>
+
+<test name="Gmail_VerifyReadAndUnreadInbox Test">
+    <classes>
+        <class name="POM_GmailTestCases.TC_04_Gmail_VerifyReadAndUnreadInbox_Test" ></class>  
+    </classes>
+</test>
+
+</suite>
